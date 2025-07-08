@@ -1,0 +1,8 @@
+2025-07-08 21:59:48,642 - INFO : raw_tax_data.csv has been extracted
+2025-07-08 21:59:48,661 - DEBUG : raw data shape : (96, 5)
+2025-07-08 21:59:48,671 - INFO : average taxable income column was created
+2025-07-08 21:59:48,677 - INFO : data has been filtered for average taxable income larger than 100
+2025-07-08 21:59:48,680 - INFO : industry_name has been set as index column
+2025-07-08 21:59:48,680 - DEBUG : clean data shape : (82, 6)
+2025-07-08 21:59:48,680 - DEBUG : data has been loaded as parquet to clean_tax_data.parquet
+2025-07-08 21:59:48,813 - INFO : Successfully extracted , transformed , and loaded data to the destination.
